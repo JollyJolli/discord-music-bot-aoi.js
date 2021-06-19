@@ -7,26 +7,6 @@ const bot = new Aoijs.Bot({
 bot.onMessage() // Sin esto no prende
 bot.loadCommands(`./Comandos/`) //Con esto permitimos los comandos en carpetas.
 
-/*
-module.exports = {
-  name: "",
-  description: "",
-  usage: "{prefix}", /// () = Obligatorio | <> = Opcional 
-  perms: "",
-  cooldown: "",
-  Emblemado: "no",
-  Categoria: "",
-  nonPrefixed: false,
-  code: `
-  $onlyIf[$queueLength!=0;No hay musica en el queue, no puedes ejecutar este comando por eso mismo.]
-    $onlyIf[$voiceID!=;No estas en un canal de voz!]
-  $suppressErrors[Ocurrio un error inesperado al ejecutar este comando. Ya se le contacto a mi developer. Vuelve a intentarlo mas tarde 🥺]
-  $onlyIf[$checkContains[$channelPermissionsFor[$clientID];Embed Links]==true;No tengo permisos para enviar "\`EMBED_LINKS\`" en este canal!]
-  `, ////  $onlyIf[$voiceID==$voiceID[$clientID];No estas en el mismo canal de voz que yo.]
-}
-
-
-*/
 bot.variables({
   ///Colores
   Rojo: "FF5252",
