@@ -1,0 +1,24 @@
+{
+  "name": "-asdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aoi.js": "^4.0.0",
+    "dbd.js": "^3.0.6",
+    "discord-tts": "^1.1.0",
+    "dthings-api": "^1.1.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.4"
+  }
+}
